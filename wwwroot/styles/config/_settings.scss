@@ -1,0 +1,30 @@
+$font-base: sans-serif;
+$font-secondary: serif;
+
+$font-xxxs: 12px;
+$font-xxs: 14px;
+$font-xs: 18px;
+$font-sm: 24px;
+$font-md: 36px;
+$font-lg: 48px;
+$font-xlg: 64px;
+
+/*   Spaces    */
+
+$paragraph-space-xs: 15px;
+$paragraph-space-md: 20px;
+$paragraph-space-lg: 35px;
+
+$letter-spacing-xs: 1px;
+$letter-spacing-sm: 1.5px;
+$letter-spacing-md: 2px;
+$letter-spacing-lg: 4px;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

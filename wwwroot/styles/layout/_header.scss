@@ -1,0 +1,31 @@
+.navbar-header {
+  .h1 {
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+
+  .navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    .h2 {
+      line-height: 40px;
+      font-weight: 100;
+    }
+    img {
+      display: inline;
+    }
+  }
+}
+.navbar-nav{
+  li.sign-in{
+    a{
+      font-size: 18px;
+      color: $white !important;
+    }
+  }
+}
+
+.logo {
+  height: 40px;
+}

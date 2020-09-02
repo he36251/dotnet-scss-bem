@@ -1,0 +1,18 @@
+@import '../config/colors';
+
+.home {
+  position: relative;
+
+  .home__title {
+    //position: absolute;
+    //left: 50%;
+    //transform: translateX(-50%);
+    text-align: center;
+    text-decoration: underline;
+
+    &.home__title--danger {
+      color: red;
+      //display: none;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import '../config/mixins';
+
+$booster-blue: #007fc4;
+
+$black: #000000;
+
+$ebony: #1F2532;
+
+$gray: #888888;
+
+$white: #ffffff;
+
+$gray-light: #F1F1F1;
+
+$white: #ffffff;
+
+$slategray: #ddd;
+
+.black{
+  &--fg { @include fg($black) }
+  &--bg { @include bg($black) }
+}
+.ebony{
+  &--bg{ @include bg($ebony); }
+
+  &--fg{ @include fg($ebony); }
+}
+
+.gray{
+  &--bg{
+    @include bg($gray);
+
+    &-light{ @include bg($gray-light); }
+  }
+
+  &--fg{
+    @include fg($gray);
+
+    &-light{ @include fg( $gray-light ); };
+  }
+}
+
+.white{
+  &--bg { @include bg($white); };
+
+  &--fg{ @include fg( $white );}
+}

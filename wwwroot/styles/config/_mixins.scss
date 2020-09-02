@@ -1,0 +1,7 @@
+@mixin fg($color){
+  color: $color !important;
+}
+
+@mixin bg($color){
+  background-color: $color !important;
+}
