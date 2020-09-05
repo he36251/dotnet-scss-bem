@@ -1,0 +1,41 @@
+@import '../configs/mixins';
+
+$booster-blue: #007fc4;
+
+$black: #000000;
+$white: #ffffff;
+
+$gray: #888888;
+$red: #FF0000;
+$green: #008000;
+
+//More comprehensive colour setups
+$gray-100: lighten($gray, 80);
+$gray-200: lighten($gray, 60);
+$gray-300: lighten($gray, 40);
+$gray-400: lighten($gray, 20);
+$gray-500: $gray;
+$gray-600: darken($gray, 20);
+$gray-700: darken($gray, 40);
+$gray-800: darken($gray, 60);
+$gray-900: darken($gray, 80);
+
+$red-100: lighten($red, 80);
+$red-200: lighten($red, 60);
+$red-300: lighten($red, 40);
+$red-400: lighten($red, 20);
+$red-500: $red;
+$red-600: darken($red, 20);
+$red-700: darken($red, 40);
+$red-800: darken($red, 60);
+$red-900: darken($red, 80);
+
+$green-100: lighten($green, 80);
+$green-200: lighten($green, 60);
+$green-300: lighten($green, 40);
+$green-400: lighten($green, 20);
+$green-500: $green;
+$green-600: darken($green, 20);
+$green-700: darken($green, 40);
+$green-800: darken($green, 60);
+$green-900: darken($green, 80);

@@ -36,3 +36,5 @@ C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\obj\Debug\netcoreapp3.1\dotnet-sc
 C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\obj\Debug\netcoreapp3.1\dotnet-scss-bem.genruntimeconfig.cache
 C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\obj\Debug\netcoreapp3.1\dotnet-scss-bem.csproj.CopyComplete
 C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\bin\Debug\netcoreapp3.1\package-lock.json
+C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\obj\Debug\netcoreapp3.1\Razor\Views\Scss\ScssIntro.cshtml.g.cs
+C:\gitprojects\dotnet-scss-bem\dotnet-scss-bem\obj\Debug\netcoreapp3.1\Razor\Views\Bem\BemIntro.cshtml.g.cs

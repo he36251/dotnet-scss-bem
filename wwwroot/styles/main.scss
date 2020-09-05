@@ -1,11 +1,19 @@
+/**
+Load order matters. Files at the bottom will overwrite top ones.
+ */
+
 //configs
-@import 'config/settings';
-@import 'config/mixins';
-@import 'config/colors';
+@import 'configs/settings';
+@import 'configs/mixins';
+@import 'configs/colors';
+@import 'configs/typography';
 
 //components
-@import 'component/buttons';
+@import 'components/buttons';
 
 //layouts
-@import 'layout/header';
-@import 'layout/home';
+@import 'layouts/header';
+
+//pages
+@import 'pages/home';
+@import 'pages/scss-intro';

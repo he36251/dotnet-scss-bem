@@ -1,0 +1,9 @@
+@import "../configs/mixins";
+@import "../configs/animations";
+
+.scss-intro-info {
+  padding: 20px 0;
+  .scss-intro-info__description {
+    animation: fadeEffect 1s;
+  }
+}

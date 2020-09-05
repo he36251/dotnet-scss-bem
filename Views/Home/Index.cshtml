@@ -4,13 +4,17 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <div class="container">
+    <div class="container home">
         <div class="row">
-            <div class="col-2">
-                <p>test</p>
-            </div>
-            <div class="col-10">
-                <p>test2</p>
+            <div class="col-6">
+                    <a class="home__title" asp-controller="Scss" asp-action="ScssIntro">
+                        <h2>SCSS</h2>
+                    </a>
+                </div>
+            <div class="col-6">
+                <a class="home__title home__title--danger" asp-controller="Bem" asp-action="BemIntro">
+                    <h2>BEM</h2>
+                </a>
             </div>
         </div>
     </div>
