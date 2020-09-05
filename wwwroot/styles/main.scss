@@ -4,15 +4,18 @@ Load order matters. Files at the bottom will overwrite top ones.
 
 //configs
 @import 'configs/settings';
-@import 'configs/mixins';
 @import 'configs/colors';
 @import 'configs/typography';
 
 //components
 @import 'components/buttons';
+@import 'components/mixins';
+@import 'components/functions';
+@import 'components/animations';
 
 //layouts
 @import 'layouts/header';
+@import 'layouts/footer';
 
 //pages
 @import 'pages/home';
