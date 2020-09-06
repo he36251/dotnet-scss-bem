@@ -1,9 +1,9 @@
 @import "../components/mixins";
 @import "../components/animations";
 
-.scss-intro-info {
+.scss-info {
   padding: 20px 0;
-  .scss-intro-info__description {
+  .scss-info__description {
     animation: fadeEffect 1s;
   }
 }
