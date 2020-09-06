@@ -10,24 +10,24 @@
 
   .bem-intro__list {
     padding: 20px 0;
-    
+
     .bem-intro__list-item {
       text-decoration: underline;
 
       &.bem-intro__list-item--green {
         color: $green-500;
       }
-      
+
       &.bem-intro__list-item--red {
         color: $red-400;
       }
-      
+
       &.bem-intro__list-item--gray {
         color: $booster-blue
       }
     }
   }
-  
+
   .bem-intro__link {
     font-size: $font-sm;
     position: relative;
@@ -38,10 +38,16 @@
     border-radius: 5px;
     padding: 5px;
     transition: box-shadow 100ms, transform 50ms;
-    
+
     &:hover {
       text-decoration: none;
       box-shadow: 10px 5px 5px $gray-400;
+    }
+
+    &.bem-intro__link--hover-success {
+      &:hover {
+        color: $green-400;
+      }
     }
     
     &:active {
