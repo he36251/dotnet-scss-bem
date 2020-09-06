@@ -7,15 +7,17 @@ Load order matters. Files at the bottom will overwrite top ones.
 @import 'configs/colors';
 @import 'configs/typography';
 
+//layouts
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/container';
+
 //components
 @import 'components/buttons';
 @import 'components/mixins';
 @import 'components/functions';
 @import 'components/animations';
 
-//layouts
-@import 'layouts/header';
-@import 'layouts/footer';
 
 //pages
 @import 'pages/home';

@@ -4,7 +4,7 @@ namespace dotnet_scss_bem.Controllers
 {
     public class BemController : Controller
     {
-        public IActionResult BemIntro()
+        public IActionResult Bem()
         {
             return View();
         }
