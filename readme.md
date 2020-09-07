@@ -19,6 +19,7 @@ Run these commands in the root of the project
 
 ####Resources:
 - Official BEM website - http://getbem.com/
+- ABEM (Atomic BEM - smaller CSS footprint) - https://imarc.github.io/boilerplate-components/pattern-library/docs/abem.html
 - SASS Guideline example - https://sass-guidelin.es/
 - Common DOM elements boilerplates - https://csslayout.io/
 - Get inspired - https://dribbble.com/shots/popular/web-design

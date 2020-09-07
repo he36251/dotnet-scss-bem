@@ -1,9 +1,15 @@
 @import '../configs/colors';
+@import '../components/mixins';
 
 .button{
+  transition: color 1s ease-in-out;
+  color: #1b1e21;
+  
   &.button--blue{
     color: $booster-blue;
     border-color: $booster-blue;
+    @include truncate(20px);
+    
     &:hover{
       background-color: $booster-blue;
       color: $white;
