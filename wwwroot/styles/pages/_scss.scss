@@ -1,3 +1,4 @@
+@import "../configs/settings";
 @import "../components/mixins";
 @import "../components/animations";
 
@@ -5,5 +6,13 @@
   padding: 20px 0;
   .scss-info__description {
     animation: fadeEffect 1s;
+  }
+  
+  .scss-info__link {
+    font-size: $font-sm;
+    display: inline-block;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
   }
 }

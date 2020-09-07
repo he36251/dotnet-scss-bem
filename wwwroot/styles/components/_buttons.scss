@@ -1,7 +1,7 @@
 @import '../configs/colors';
 
-.btn{
-  &--cherry{
+.button{
+  &.button--blue{
     color: $booster-blue;
     border-color: $booster-blue;
     &:hover{
@@ -10,7 +10,7 @@
       border-color: $booster-blue;
     }
   }
-  &--light{
+  &.button--black{
     &:hover{
       color: $black;
     }
