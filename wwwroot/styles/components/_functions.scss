@@ -1,0 +1,7 @@
+@function example-func($foo, $bar){
+  @if($foo > $bar) {
+    @return $foo;
+  }
+  
+  @return $bar;
+}

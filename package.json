@@ -1,0 +1,25 @@
+{
+  "name": "dotnet-scss-bem",
+  "version": "1.0.0",
+  "description": "- Grunt https://gruntjs.com/\r `npm install -g grunt-cli`",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/he36251/dotnet-scss-bem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/he36251/dotnet-scss-bem/issues"
+  },
+  "homepage": "https://github.com/he36251/dotnet-scss-bem#readme"
+}
