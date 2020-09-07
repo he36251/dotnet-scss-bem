@@ -1,0 +1,172 @@
+/**
+Load order matters. Files at the bottom will overwrite top ones.
+ */
+/*   Spaces    */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*   Spaces    */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul li {
+  font-size: 24px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.navbar-header .h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+.navbar-header .navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-header .navbar-brand .h2 {
+  line-height: 40px;
+  font-weight: 100;
+}
+.navbar-header .navbar-brand img {
+  display: inline;
+}
+
+.navbar-nav li.sign-in a {
+  font-size: 18px;
+  color: #ffffff !important;
+}
+
+.logo {
+  height: 40px;
+}
+
+.container.container--long {
+  padding-bottom: 100px;
+}
+
+.button.button--blue {
+  color: #007fc4;
+  border-color: #007fc4;
+}
+.button.button--blue:hover {
+  background-color: #007fc4;
+  color: #ffffff;
+  border-color: #007fc4;
+}
+.button.button--black:hover {
+  color: #000000;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.home .home__title {
+  display: block;
+  text-align: center;
+}
+.home .home__title.home__title--danger {
+  color: red;
+}
+
+.home .home__title.home__title--danger {
+  color: orange;
+}
+
+/*   Spaces    */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.scss-info {
+  padding: 20px 0;
+}
+.scss-info .scss-info__description {
+  animation: fadeEffect 1s;
+}
+.scss-info .scss-info__link {
+  font-size: 24px;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+/*   Spaces    */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bem-intro {
+  margin: 20px 0;
+}
+.bem-intro .bem-intro__long-name {
+  text-align: center;
+}
+.bem-intro .bem-intro__list {
+  padding: 20px 0;
+}
+.bem-intro .bem-intro__list .bem-intro__list-item {
+  text-decoration: underline;
+}
+.bem-intro .bem-intro__list .bem-intro__list-item.bem-intro__list-item--green {
+  color: #008000;
+}
+.bem-intro .bem-intro__list .bem-intro__list-item.bem-intro__list-item--red {
+  color: #ff6666;
+}
+.bem-intro .bem-intro__list .bem-intro__list-item.bem-intro__list-item--gray {
+  color: #007fc4;
+}
+.bem-intro .bem-intro__link {
+  font-size: 24px;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #555555;
+  border-radius: 5px;
+  padding: 5px;
+  transition: box-shadow 100ms, transform 50ms;
+}
+.bem-intro .bem-intro__link:hover {
+  text-decoration: none;
+  box-shadow: 10px 5px 5px #bbbbbb;
+}
+.bem-intro .bem-intro__link.bem-intro__link--hover-success:hover {
+  color: #00e600;
+}
+.bem-intro .bem-intro__link:active {
+  box-shadow: 6px 3px 5px #bbbbbb;
+  transform: translateX(-50%) scale(0.96);
+}
+
+/*# sourceMappingURL=example.css.map */
